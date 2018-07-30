@@ -1,0 +1,35 @@
+{ 
+  "test": {
+    "port": 3306,
+    "host": "",
+    "user": "",
+    "pass": "",
+    "db": "",
+    "permiso": "http://localhost:4200",
+    "server": "http://192.168.56.3/",
+    "api": "http://192.168.56.3/",
+    "secret":"hiperactivo.cl"
+  },
+  "development": {
+    "port": 3306,
+    "host": "",
+    "user": "",
+    "pass": "",
+    "db": "",
+    "permiso": "http://localhost:4200",
+    "server": "http://192.168.56.3/",
+    "api": "http://192.168.56.3/",
+    "secret":"hiperactivo.cl"
+  }, 
+  "production": {
+    "port": 3306,
+    "host": "",
+    "user": "",
+    "pass": "",
+    "db": "",
+    "permiso": "http://hiperclaves.xyz",
+    "server": "http://hiperclaves.xyz/",
+    "api": "http://api.hiperclaves.xyz/",
+    "secret":"hiperactivo.cl"
+  }
+}
