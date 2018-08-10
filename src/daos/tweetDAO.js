@@ -8,8 +8,9 @@ function obtenerToken(callbackObtener){
 	var postData = {
 		"grant_type": "client_credentials"
 	};
-	let userName = "nll2OYLrB6SazewBrkByEay0x";
-	let password = "81KwpOM2Pc6jy7u7QXoy4mgcwNIDuuPWmRG6Xk1OrE8eGOyvrq";
+	//Datos conexión APITwitter
+	let userName = "";
+	let password = "";
     //var auth = "Basic " + new Buffer(userName + ":" + password).toString("base64");
 	request({
 	    url: "https://api.twitter.com/oauth2/token",
